@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Observation médicale</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="nav" id="navbar">
+        <a href="#hero" class="nav-logo">
+            <img src="images/logo.png" alt="ObserMed Logo" onerror="this.style.display='none'" /> Obsermed
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#download">Télécharger</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+
+        <div class="nav-toggle" id="navToggle">☰</div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+
+            <h1 class="hero-title">
+                Observation <br class="mobile-break">
+                <span class="hero-title-accent">
+                    <span id="typed-word">Médicale</span>
+                </span>
+            </h1>
+
+            <p class="hero-slogan">
+                Plus de temps à observer <br> moins de temps à l'observation
+            </p>
+
+            <div class="hero-actions">
+                <a href="#download" class="btn btn-primary">⬇ Télécharger l'app</a>
+                <a href="#contact" class="btn btn-outline">Contactez-nous</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="section" id="download">
+        <div class="dl-glow"></div>
+
+        <div class="section-inner dl-container">
+            <span class="eyebrow reveal">Gratuit • Sans compte • Hors ligne</span>
+
+            <h2 class="section-title reveal reveal-d1">Téléchargement</h2>
+
+            <p class="section-sub reveal reveal-d2" style="margin: 0 auto 40px;">
+                L'app est encore en <strong>développement</strong>, et disponible pour le moment sur Android
+                (apk) et bientôt sur iOS<br>
+                <strong>Version principale (64-bit) ci-dessous :</strong>
+            </p>
+
+            <div class="dl-main-wrapper reveal reveal-d3">
+                <a href="https://drive.google.com/file/d/1jHYbQPXSzQpu5PMxrXzOIy9EoK9KxNcq/view"
+                    class="dl-btn dl-btn-hero">
+                    <img class="dl-btn-icon" src="images/android-brands-solid.png" alt="android" />
+                    <div class="dl-text-group">
+                        <span class="dl-btn-main">Télécharger l'APK : 18.4 MB</span>
+                        <span class="dl-btn-sub">version 64-bit (recommandée)</span>
+                    </div>
+                </a>
+            </div>
+
+            <p class="dl-helper-text reveal reveal-d4">
+                Si la version principale ne marche pas (vieux téléphones), testez celle-ci :
+            </p>
+
+            <div class="dl-secondary-wrapper reveal reveal-d4">
+                <a href="https://drive.google.com/file/d/1jHYbQPXSzQpu5PMxrXzOIy9EoK9KxNcq/view" class="dl-btn-alt">
+                    Version alternative 32-bit : 15.4 MB
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="section-inner">
+
+            <span class="eyebrow reveal">Contact</span>
+            <h2 class="section-title reveal reveal-d1">Contactez-nous</h2>
+
+            <p class="section-sub reveal reveal-d2">
+                Ce projet est ouvert aux contributions ! Si vous voulez donner un
+                coup de main — côté code, design ou algorithme médical — ou simplement nous partager vos retours
+                (questions, bugs, suggestions), voici nos contacts :
+            </p>
+
+            <div class="contact-grid">
+
+                <!-- FACEBOOK -->
+                <a href="https://www.facebook.com/profile.php?id=61560731790392" target="_blank"
+                    class="contact-card reveal reveal-d1" style="--card-accent: #63b1d6">
+                    <div class="icon-box"> <img src="images/facebook-brands-solid.png" alt="Facebook" /></div>
+
+
+                    <div class="contact-label">Obser Med</div>
+                    <div class="contact-value">Notre compte facebook</div>
+                </a>
+
+                <!-- EMAIL -->
+                <a href="mailto:obsermed25@gmail.com" class="contact-card reveal reveal-d2"
+                    style="--card-accent: #e06b63">
+
+                    <div class="icon-box"> <img src="images/google-brands-solid.png" alt="gmail" /></div>
+
+                    <div class="contact-label">obsermed25@gmail.com</div>
+                    <div class="contact-value">Notre adresse gmail</div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
