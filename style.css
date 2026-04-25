@@ -344,6 +344,8 @@ a {
            DOWNLOAD
         ═══════════════════════════════════ */
 #download {
+        min-height: 100vh;
+
     background: #0F0E1A;
     /* خلفية داكنة احترافية */
     position: relative;
@@ -478,6 +480,8 @@ a {
         ═══════════════════════════════════ */
 
 #contact {
+        min-height: 100vh;
+
     background: white;
     text-align: center;
     /* توسيط النصوص */
