@@ -1,19 +1,34 @@
 <!doctype html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Observation médicale</title>
-    <meta name="description"
-        content="Obsermed - Application gratuite pour les étudiants en médecine (externes et internes). Gérez vos observations médicales facilement et hors ligne.">
-    <meta name="keywords"
-        content="Observation médicale, médecine, externe, interne, stage médical, application médicale, Algérie, Obsermed">
+    
+    <title>Obsermed - Observation Médicale</title>
+    <meta name="apple-mobile-web-app-title" content="Obsermed">
+    <meta name="application-name" content="Obsermed">
+    <meta property="og:site_name" content="Obsermed">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Obsermed",
+      "url": "https://obsermed.netlify.app/"
+    }
+    </script>
+
+    <meta name="description" content="Obsermed - Application gratuite pour les étudiants en médecine (externes et internes). Gérez vos observations médicales facilement et hors ligne.">
+    <meta name="keywords" content="Observation médicale, médecine, externe, interne, stage médical, application médicale, Algérie, Obsermed">
+    
     <meta name="google-site-verification" content="yBPpcFBKsmOIIrkXt5fSyceUDV2v6rYE3r7QKNkCAyg" />
+
     <meta property="og:title" content="Obsermed - Observation Médicale">
     <meta property="og:description" content="L'outil indispensable pour les étudiants en médecine durant leurs stages.">
-    <meta property="og:image" content="images/logo.png">
+    <meta property="og:image" content="https://obsermed.netlify.app/images/logo.png">
     <meta property="og:url" content="https://obsermed.netlify.app">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
@@ -22,6 +37,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2P7MZ5C9X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W2P7MZ5C9X');
+    </script>
 </head>
 
 <body>
